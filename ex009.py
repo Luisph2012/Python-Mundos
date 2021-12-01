@@ -17,3 +17,11 @@ print('Tabuada do número {}:'.format(num))
 print('{} x 1: {}\n{} x 2: {}\n{} x 3: {}'.format(num, a0, num, a1, num, a2))
 print('{} x 4: {}\n{} x 5: {}\n{} x 6: {}\n{} x 7: {}'.format(num, a3, num, a4, num, a5, num, a6))
 print('{} x 8: {}\n{} x 9: {}\n{} x 10: {}'.format(num, a7, num, a8, num, a9))
+
+num1=int(input())
+while num1<=100:
+    for i in range(1, 1001):
+            total = num1*i
+            print('{} x {} = {}'.format(num1, i, total))
+    break
+
