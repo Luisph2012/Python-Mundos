@@ -35,7 +35,7 @@ print('\n\n\n')
 #machine translation. Experimental results show that our model significantly outperforms existing non-autoregressive
 #baselines and achieves competitive performance with many strong autoregressive models. In addition, we also conduct
 #extensive analysis experiments to reveal the effect of each proposed component."""
-frase = 'Curso em video Python'
+frase = 'prova de python'
 
 print(frase)
 print(frase[9])
