@@ -4,7 +4,7 @@ from random import choice
 from time import sleep
 
 randnumber = choice(['pedra', 'papel', 'tesoura'])
-print(randnumber)
+#print(randnumber)
 
 frase = """----------JOKENPÔ----------
 
